@@ -16,6 +16,6 @@ document.addEventListener("keydown", function(e) {
     let rightNumbers = dodger.style.right.replace("px", "")
     let right = parseInt(rightNumbers, 10)
 
-    dodger.style.right = `${right - 1}px`
+    dodger.style.left = `${right + 1}px`
   }
 });
